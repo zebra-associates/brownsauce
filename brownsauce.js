@@ -3498,6 +3498,7 @@ function Map(I) { //map object
         }
 		mapDirty=false;
     };
+	//penis pump?
     I.clear =function(){
         for (i=0;i<MAP_WIDTH; i++){
             for (j=0;j<MAP_HEIGHT; j++){
