@@ -1,0 +1,196 @@
+0=heal squad -mother
+1=hurt enemy - rhollor fire
+2=enemy retreats - father
+3=enemy rows - stranger
+4=revive dead - 
+5=Allies defense is increased - smith
+6=ll enemies' defense is lowered. - warrior
+7=all enemies are attempted to be put to sleep.-great sheperd -sleep?
+8="Charms" enemies and makes them attack each other. - maiden
+9=Blasts the enemy with white magic. Kills undead.
+10=Emits a blast of holy energy damaging both enemies and allies. Kills undead.
+11=Allies recover from ailment statuses, such as sleep and paralysis ect.-crone
+12=Ally units cannot be damaged by spells for duration of battle.
+-drowned god -water attack
+-great stallion -speed boost?
+-Many faced god - death?
+storm god - lightning
+-Bakkalon - great soldier - attack physical
+-lion of knight -riches
+great other - ice attack
+---------------------
+-map object=name, num towns, towm locations,base locations,
+
+
+-cards -animations, more types needed animationpause? attack queue wait for animation to finish?
+damage numbers drawn on sprites in battle. -meh
+-build + destroy bridges -road first
+-wounded pepole bleeding out left behind antibiotics - DEAD IS DEAD for now
+-mutinies! =fight to death, if leader loses, squad defects - cohesion
+-catapults to defend towns - eventually, builders
+-growth tables for classes. (all the same for now.)
+-maxturn=x*100 ticks, not turns taken.
+-time based turns
+-CHRONOTRIGGER
+-3 TIME PERIODS
+	0 = Last Blackfyre Rebellion / defiance of duskendale [0,1]
+	1 = Roberts Rebellion/lannister fuled rebellion? foriegn invation? volantis?
+    2=  greyjoy/Dornish/ rebellion [0:0=canon,0:1=not robert (rebels againt blackyre ayres (not as bad.) PTWP motivation?)
+	3 = war of the five kings 0:0:0=cannon, 0:0:1=robert lost, targs/blackfyers still rule.  else robert, dany invasion.
+	4 = endgame= long night=t/f (loss/ bankrupcy / dragon rape / famine/ rebellion(kindom)/ dothraki invasion / 
+ -more fuid? no.
+0,0,0}=canon = option to aid wall if eddard alive
+{1,0,0}canon with minor adust.  dany=invader.  loyalties adjusted.  Alternate rebellion? no duskendale? different laws. option to invade summer isles.
+{0,1,0}=cannon until RR failed.  targ rule continued.  edit dany char, rheagar lives, etc.  No greyjoy rebel.  option to have rhegar take throne.
+-menus, arrow keys move around grid of items.
+
+ -knockback
+ fog of war/view range
+ 
+ maybe we could pre-plot the enemy squads intial movement assignment and lump that hang in with the map load
+ 
+ -keep list of tiles covered by squads, one frame behind
+ 
+
+different weapon for front/back row
+.getspeed (equip)
+.getevade
+.getluck
+.religion (unit compatibility/card effects (storm(lit),old(ice), seven[7](bonuses), R'llor(fire),Drowned God(water),Great Other(death)
+.faith
+ 
+ Longbow
+ Silver Bow
+ Ice Bow
+ Lightning Bow
+ Fire Bow
+ Mythril Bow
+ WindSlash
+ Artemis Bow
+ Yoichi Bow
+ ObSagittarius Bow
+ 
+ Chaosbringer
+ Deathbringer
+ Arodight
+ Balmung
+ Valhlalla
+ Mage Masher
+ Orichalcum
+ Platinum Dagger
+ 
+ Rod of Faith
+ Poison Rod
+ Stardust Rod
+ Crown Sceptre
+ Flame Rod
+ Ice Rod
+ Thunder rod
+ 
+ 
+ Ashura
+ Kotesu
+ Osafune
+ Murasame
+ Ama-no-Murakumo
+ Kiyomori
+ Muramasa
+ Masamune
+ Kiki-ichimojo
+ Chirjiraden
+ 
+ 
+ Flame MAil
+ Ice Amor
+ Diamond Armorw
+ Genji Armor
+ Dragon Mail
+ Crystal Mail
+ Adamant Amror
+ Gia Gear
+ 
+ Battle Axe
+ Giant Axe
+ Slasher
+ Franciscia
+ Valyrian Axe
+
+ 
+ 
+ Production
+ -Amount of units enemy produces per cycle; == week?
+ produciton=rate of food/reasearch/heal at towns/resupply/
+ 
+ Technonolologies":
+ -wheel
+ -writing
+ -legalism
+ -racism
+ -nationalism
+ -longbow
+ -crowwbow
+ -autocrossbow
+ -motor
+ -combustion engine
+ =battery
+ -ray bow
+ -cyogenics
+ -gunpowder
+ -magnatism
+ -arrowheads
+ -belts - increses pants effectivness
+ 
+ one armor slot, but 3? armors of each type ie:
+ Mythril shirt: def+45
+ Mythril boots: def +30; speed+1;evade+5;
+ Myhril Cape: def+30;mdef+15;mag+5;
+ 
+ -status effects for refelct, protect, regen, cloak.
+ 
+ attacktype[row]
+-squad drops
+-random items
+-town items
+
+-PHYSICAL ATTACK PENELTY BACK ROW?
+
+prevent constant capture/liberation! -HOW FUCKING HARD IS IT
+	-better town colision detection
+	
+cardbug! - still there!!
+ 
+ .attacking.dancin.healing.casting.
+knockback both on tie? - right now tie goes to the player
+ 
+-revive at towns for money?
+-town greeting first time, boss greeting, dish out cards
+-EDIT SET DESTINATION TO CHECK THERE'S NO ROCKS FIRST.
+-preset towns for each map?
+-angel ring?
+
+narf: this.getshit = function(property) { return this[property]; }
+narf: in javascript you can always use foo["shit"] or foo.shit
+narf: so var stuff = "shit"; foo[stuff]
+narf: and then you'd call your thing like
+narf: whatever.getshit("hp")
+
+get spreadsheet style list of all untis each team health, attack etc, sortable.
+
+["Brotherhood Without Banners","Second Sons","Golden Company","Company of the Cat","Brave Companions","The Unsullied","The Nights Watch","The Kingsguard","The Windblown","The Long Lances","Stormcrows"];
+
+bear->polarbead->cyborg bear
+chemist->alchemist->apocothary
+helear->cleric->priest
+shoe->boot-pegasusboot
+
+the vale /mountain clans
+north / ramsey/dreadfort
+
+North:
+"Winterfell",Dreadfort","Last Hearth","Deepwood Motte","Karhold","Tohhren's Square","Barrowton","Hornwood","White Harbor","Castle Black"
+
+The Neck: "Greywater Watch","Flint's Finger","Moat Cailin","Seaguard","oldstones","The Twins"
+riverlands "Fairmarket","Riverrun","High Heart","Acorn hall","Pinkmaiden","Harrenhall"
+vale: "Eyrie","Longbow Hall","Old Anchor","Runestone","Coldwater","Snakewoods","Saltpans"
+crownlands: "King's Landing","Maidenpool","Rosby","Duskendale","Dragonstone", "Crackclaw Point"
+Dorne:"Starfell","Blackmont","Kingsgrave","Wyl","Yornwood","Godsgrace","SunSpear",Saltshore","Lemonwood"

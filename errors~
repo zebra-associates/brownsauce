@@ -1,0 +1,53 @@
+brownsauce.js: line 188, col 22, 'i' is already defined.
+brownsauce.js: line 205, col 22, 'i' is already defined.
+brownsauce.js: line 216, col 6, Missing semicolon.
+brownsauce.js: line 525, col 72, A leading decimal point can be confused with a dot: '.5'.
+brownsauce.js: line 681, col 24, Use '===' to compare with '0'.
+brownsauce.js: line 719, col 6, Missing semicolon.
+brownsauce.js: line 723, col 6, Missing semicolon.
+brownsauce.js: line 729, col 6, Missing semicolon.
+brownsauce.js: line 754, col 31, Use '!==' to compare with 'null'.
+brownsauce.js: line 764, col 35, 'tmpstr' is already defined.
+brownsauce.js: line 766, col 34, 'i' is already defined.
+brownsauce.js: line 778, col 35, 'tmpstr' is already defined.
+brownsauce.js: line 787, col 31, 'tmpstr' is already defined.
+brownsauce.js: line 793, col 30, 'i' is already defined.
+brownsauce.js: line 799, col 50, Unnecessary semicolon.
+brownsauce.js: line 804, col 43, 'tmpstr' is already defined.
+brownsauce.js: line 805, col 45, Use '===' to compare with '0'.
+brownsauce.js: line 829, col 38, Use '===' to compare with '0'.
+brownsauce.js: line 840, col 29, Use '!==' to compare with 'null'.
+brownsauce.js: line 841, col 33, Use '===' to compare with 'null'.
+brownsauce.js: line 842, col 33, 'delt' is already defined.
+brownsauce.js: line 843, col 46, Unnecessary semicolon.
+brownsauce.js: line 845, col 39, 'temper' is already defined.
+brownsauce.js: line 848, col 39, 'tmpstr' is already defined.
+brownsauce.js: line 849, col 41, Use '===' to compare with '0'.
+brownsauce.js: line 868, col 83, 'tmpstr' used out of scope.
+brownsauce.js: line 868, col 140, 'tmpstr' used out of scope.
+brownsauce.js: line 877, col 23, 'tmpstr' is already defined.
+brownsauce.js: line 894, col 21, Use '===' to compare with '0'.
+brownsauce.js: line 900, col 15, Use '===' to compare with '0'.
+brownsauce.js: line 903, col 27, Missing semicolon.
+brownsauce.js: line 1185, col 42, Missing semicolon.
+brownsauce.js: line 1207, col 16, Use '===' to compare with '0'.
+brownsauce.js: line 1209, col 14, 'i' is already defined.
+brownsauce.js: line 1214, col 2, Unnecessary semicolon.
+brownsauce.js: line 1218, col 12, Use '===' to compare with '0'.
+brownsauce.js: line 1227, col 18, 'i' is already defined.
+brownsauce.js: line 1239, col 2, Unnecessary semicolon.
+brownsauce.js: line 1269, col 25, Use '===' to compare with '0'.
+brownsauce.js: line 1282, col 25, Use '===' to compare with '0'.
+brownsauce.js: line 1295, col 2, Unnecessary semicolon.
+brownsauce.js: line 1335, col 15, Use '===' to compare with '0'.
+brownsauce.js: line 1338, col 25, Use '===' to compare with '0'.
+brownsauce.js: line 1344, col 29, Use '!==' to compare with '0'.
+brownsauce.js: line 1349, col 18, 'i' is already defined.
+brownsauce.js: line 1355, col 2, Unnecessary semicolon.
+brownsauce.js: line 1380, col 35, Missing semicolon.
+brownsauce.js: line 1406, col 39, Missing semicolon.
+brownsauce.js: line 1415, col 32, Missing semicolon.
+brownsauce.js: line 1497, col 51, Unreachable 'console' after 'return'.
+brownsauce.js: line 1497, col 51, Too many errors. (49% scanned).
+
+51 errors
